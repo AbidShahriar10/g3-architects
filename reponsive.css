@@ -1,0 +1,162 @@
+@media only screen and (max-width: 768px) {
+ 
+  /* Navigation */
+
+  .menu {
+    margin-top: 50px;
+  }
+
+  .menu-bar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu li {
+    text-align: center;
+  }
+
+  /* Banner Section */
+
+  .banner-content {
+    width: 90%;
+  }
+
+  .banner-content h1 {
+    font-size: 50px;
+    line-height: 70px;
+    padding-top: 50px;
+  }
+
+  .img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .img img {
+    width: 98%;
+  }
+
+  /* Quick Feature Section */
+
+  .feature-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .feature-image {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    justify-items: center;
+  }
+
+  .feature-content {
+    padding-left: 10px;
+    margin-top: 50px;
+  }
+
+  .section-header br {
+    content: "";
+  }
+
+  /* Detailed Features Section */
+
+  .details-features {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .details-features-content-top h2 {
+    width: 90%;
+  }
+
+  .details-features-content-top p {
+    width: 90%;
+    margin-left: 5px;
+  }
+
+  .details-features-description {
+    width: 100%;
+  }
+
+  .description {
+    padding: 15px;
+    margin: 30px 10px;
+  }
+
+  .details-features-image {
+    display: grid;
+    justify-items: center;
+  }
+
+  .details-features-image img {
+    width: 98%;
+  }
+
+  .experience-btn {
+    position: relative;
+    top: -70px;
+    left: 0px;
+  }
+
+  /*  Facts Section*/
+
+  .facts-section-heading {
+    width: 95%;
+    margin-top: 100px;
+  }
+
+  .facts-section-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .facts-description {
+    margin: 0 20px 50px;
+  }
+
+  /* Sponsors Section */
+
+  .sponsor-heading {
+    width: 90%;
+  }
+
+  .sponsor-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sponsor-img {
+    width: 90%;
+    padding: 20px 0;
+  }
+
+  .amazon {
+    display: grid;
+    grid-column: span 2;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .feature-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5px;
+    justify-items: center;
+  }
+
+  .sponsor-img {
+    width: 50%;
+    padding: 20px 0;
+  }
+  
+  .amazon {
+    width: 25%;
+  }
+}
